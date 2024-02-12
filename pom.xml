@@ -37,6 +37,19 @@
 
   </properties>
 
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>11100ae121af-releases</name>
+        <url>http://localhost:8081/artifactory/my-maven-local-releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>11100ae121af-snapshots</name>
+        <url>http://localhost:8081/artifactory/my-maven-local-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
